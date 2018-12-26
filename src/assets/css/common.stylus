@@ -1,0 +1,72 @@
+@import './stdio.stylus'
+body
+  margin 0
+  background #f1f1f1
+  font-size 16px
+  color #666
+  font-family "微软雅黑",'Helvetic','Arial'
+
+.float-right
+  float right
+
+.float-left
+  float left
+
+.ellipsis
+  text-overflow ellipsis
+  overflow hidden
+  white-space nowrap
+
+.overflow-hidden
+  overflow hidden
+
+a
+  text-decoration none
+  color #666
+  cursor pointer
+
+p
+  margin 0
+
+.clear
+  overflow hidden
+  _zoom 1
+
+h1,h2,h3,h4,h5,h6
+  margin 0
+
+ul
+  list-style none
+  padding 0
+  margin 0
+
+input,button,a
+  outline none
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder
+  color #999
+input:-moz-placeholder, textarea:-moz-placeholder
+  color #999
+input::-moz-placeholder, textarea::-moz-placeholder
+  color #999
+input:-ms-input-placeholder, textarea:-ms-input-placeholder
+  color #999
+
+.el-message-box,.el-dialog
+  width 550px
+  padding 20px
+.el-dialog.loading-dialog
+  padding 0
+  text-align center
+.el-dialog.loading-dialog
+  .el-dialog__header
+    padding 0
+.t-l
+  text-align left
+.t-r
+  text-align right
+.t-j
+  text-align justify
+.t-c
+  text-align center
+

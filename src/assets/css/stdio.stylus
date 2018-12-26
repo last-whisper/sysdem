@@ -1,0 +1,26 @@
+vendor(props,args)
+  -webkit-{props} args
+  -moz-{props} args
+  -o-{props} args
+  -ms-{props} args
+  {props} args
+
+box-sizing()
+  vendor('box-sizing',arguments)
+
+box-shadow()
+  vendor('box-shadow',arguments)
+
+border-radius()
+  vendor('border-radius',arguments)
+transition()
+  vendor('transition',arguments)
+
+size(num)
+  height:num
+  width:num
+
+height-line(num)
+  height num
+  line-height num
+
